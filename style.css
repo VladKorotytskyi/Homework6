@@ -1,0 +1,61 @@
+.links{
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.link{
+    color: #212121;
+    text-decoration: none;
+}
+.tel{
+    color: #757575;
+    text-decoration: none;
+}
+.section-hero{
+    background-color: #2F303A;
+    padding: 20px;
+}
+.title-hero{
+    color: white;
+}
+.button-hero{
+    border-radius: 4px;
+background: #2196F3;
+color: white;
+padding: 5px;
+}
+.text-unhero{
+    color: #757575;
+}
+.section-subhero{
+    background-color: #F5F4FA;
+    padding: 25px;
+}
+.list-subhero{
+    background-color: white;
+    padding:5px;
+}
+.text-subhero{
+    color: #757575;
+}
+.footer-ft{
+     background-color: #2F303A;
+     padding: 10px;
+}
+.link-ft{
+    color: white;
+    text-decoration: none;
+}
+.addres-ft{
+    color: white;
+    text-decoration: none;
+}
+.email-ft{
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+.tel-ft{
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+
