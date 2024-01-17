@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +23,8 @@
   <body>
     <!-- header -->
     <header class="header">
-      <a class="logo" href="index.html">WebStudio</a>
+      <div class="container">
+        <a class="logo" href="index.html">WebStudio</a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -45,47 +46,56 @@
           <a class="contakts-link" href="#">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
+      
     </header>
     <!-- main -->
     <main>
       <!-- section 1 -->
       <section class="post">
-        <h1 class="post-title">Ефективні рішення для вашого бізнесу</h1>
+        <div class="container">
+          <h1 class="post-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="post-button" type="button">Замовити послугу</button>
+        </div>
+        
       </section>
       <section class="benefist">
-        <ul class="benefist-list">
-          <li class="benefist-item">
-            <h2 class="benefist-title">УВАГА ДО ДЕТАЛЕЙ</h2>
-            <p class="benefist-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="benefist-item">
-            <h2 class="benefist-title">ПУНКТУАЛЬНІСТЬ</h2>
-            <p class="benefist-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="benefist-item">
-            <h2 class="benefist-title">ПЛАНУВАННЯ</h2>
-            <p class="benefist-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="benefist-item">
-            <h2 class="benefist-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-            <p class="benefist-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="benefist-list">
+            <li class="benefist-item">
+              <h2 class="benefist-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+              <p class="benefist-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="benefist-item">
+              <h2 class="benefist-title">ПУНКТУАЛЬНІСТЬ</h2>
+              <p class="benefist-text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне
+                у себе.
+              </p>
+            </li>
+            <li class="benefist-item">
+              <h2 class="benefist-title">ПЛАНУВАННЯ</h2>
+              <p class="benefist-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="benefist-item">
+              <h2 class="benefist-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+              <p class="benefist-text">
+                Значимість цих проблем настільки очевидна, що реалізація планових
+                завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+        
       </section>
       <section class="work">
-        <h2 class="work-title">Чим ми займаємося</h2>
+        <div class="container">
+          <h2 class="work-title">Чим ми займаємося</h2>
         <ul class="work-list">
           <li class="work-item">
             <img class="work-img" src="./img/img1.png" alt="computer" />
@@ -101,43 +111,55 @@
       <section class="team">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list">
-          <li class="team-item">
-            <img class="team-img" src="./img/photo1.jpg" alt="Igor" />
-            <p class="team-name">Ігор Дем'яненко</p>
-            <p class="team-text">Product Designer</p>
-          </li>
-          <li class="team-item">
-            <img class="team-img" src="./img/photo2.jpg" alt="Olga" />
-            <p class="team-name">Ольга Рєпіна</p>
-            <p class="team-text">Frontend Developer</p>
-          </li>
-          <li class="team-item">
-            <img class="team-img" src="./img/photo3.jpg" alt="Mykola" />
-            <p class="team-name">Микола Тарасов</p>
-            <p class="team-text">Marketing</p>
-          </li>
-          <li class="team-item">
-            <img class="team-img" src="./img/photo4.jpg" alt="Mychailo" />
-            <p class="team-name">Михайло Єрмаков</p>
-            <p class="team-text">UI Designer</p>
-          </li>
+          <div class="team-div">
+            <li class="team-item">
+              <img class="team-img" src="./img/photo1.jpg" alt="Igor" />
+              <p class="team-name">Ігор Дем'яненко</p>
+              <p class="team-text">Product Designer</p>
+            </li>
+          </div>
+          <div class="team-div">
+            <li class="team-item">
+              <img class="team-img" src="./img/photo2.jpg" alt="Olga" />
+              <p class="team-name">Ольга Рєпіна</p>
+              <p class="team-text">Frontend Developer</p>
+            </li>
+          </div>
+          <div class="team-div">
+            <li class="team-item">
+              <img class="team-img" src="./img/photo3.jpg" alt="Mykola" />
+              <p class="team-name">Микола Тарасов</p>
+              <p class="team-text">Marketing</p>
+            </li>
+          </div>
+          <div class="team-div">
+            <li class="team-item">
+              <img class="team-img" src="./img/photo4.jpg" alt="Mychailo" />
+              <p class="team-name">Михайло Єрмаков</p>
+              <p class="team-text">UI Designer</p>
+            </li>
+          </div>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="#">WebStudio</a>
+      <div class="container">
+        <a class="logo" href="#">WebStudio</a>
 
-      <ul class="footer-list">
-        <li class="footer-item">
-          <a class="addres" href="#">м. Київ, пр-т Лесі Українки, 26</a>
-        </li>
-        <li class="footer-item">
-          <a class="addres-link" href="#">info@devstudio.com</a>
-        </li>
-        <li class="footer-item">
-          <a class="addres-link" href="#">+38 096 111 11 11</a>
-        </li>
-      </ul>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="addres" href="#">м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li class="footer-item">
+            <a class="addres-link" href="#">info@devstudio.com</a>
+          </li>
+          <li class="footer-item">
+            <a class="addres-link" href="#">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+     
     </footer>
   </body>
 </html>
