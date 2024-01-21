@@ -17,14 +17,16 @@ body{
     margin: 0 auto;
     padding: 0 15px;
 }
+.navigation{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 .navigation-link{
     font-weight: 500;
@@ -99,6 +101,11 @@ body{
     border-radius: 4px;
     border: 0px;
     cursor: pointer;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.portfolio{
+    padding-bottom: 94px;
 }
 .filter-button:hover,
 .filter-button:focus{
@@ -106,6 +113,7 @@ body{
     color: var(--item-color);
     border-radius: 4px;
     border: 0px; 
+    
 }
 .portfolio-title{
     font-size: 18px;
@@ -123,13 +131,23 @@ body{
 }
 .footer{
     background-color: var(--footer-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
 }
 .addres{
     color: white;
 }
 .addres-link{
     color: var(--text-color);
+    padding-bottom: 60px;
 }
+
 
 
 
