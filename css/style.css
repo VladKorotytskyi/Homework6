@@ -249,6 +249,9 @@ justify-content: space-between;
 .benefist-text{
     color: var(--text-color);
 }
+.post-button{
+    padding: 10px 32px;
+}
 
 
 
