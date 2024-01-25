@@ -246,6 +246,9 @@ justify-content: space-between;
 .benefist-title{
     padding-bottom: 10px;
 }
+.benefist-text{
+    color: var(--text-color);
+}
 
 
 
