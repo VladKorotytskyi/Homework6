@@ -112,7 +112,7 @@ body{
     margin-bottom: 50px;
 }
 .portfolio{
-    padding-bottom: 94px;
+    padding-bottom: 64px;
 }
 .filter-button:hover,
 .filter-button:focus{
@@ -252,6 +252,30 @@ justify-content: space-between;
 .post-button{
     padding: 10px 32px;
 }
+.filter{
+    display: flex;
+    justify-content: center;
+}
+.filter-item{
+    margin-right: 8px;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio-item{
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    padding-bottom: 20px;
+}
+.portfolio-title,
+.portfolio-text{
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+
 
 
 
