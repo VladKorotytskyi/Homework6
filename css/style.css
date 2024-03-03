@@ -49,7 +49,7 @@ body{
     color: var(--text-color);
 }
 .post{
-    background-color: var(--footer-color);
+    background-image:url("../img/overlay.png") , url("../img/fon.jpg");
 }
 .team-img{
     margin-bottom: 30px;
