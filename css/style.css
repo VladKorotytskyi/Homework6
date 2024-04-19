@@ -47,6 +47,23 @@ body{
 }
 .contakts-link{
     color: var(--text-color);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.contakts-icon{
+    margin: 10px;
+    fill: #757575;
+}
+.contakts-link:hover .contakts-icon{
+    fill: #2196F3;
+}
+.contakts .contakts-link:hover{
+    color: #2196F3;
+}
+.contakts-link:hover,
+.contakts-link:focus{
+    color: #2196F3;
 }
 .post{
     background-image:url("../img/overlay.png") , url("../img/fon.jpg");
@@ -325,9 +342,42 @@ justify-content: space-between;
 .portfolio-item:focus{
     box-shadow: 1px 2px 6px grey
 }
-
-
-
-
+.team-links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+.team-social{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #757575;
+}
+.team-social:hover{
+    background-color: #2196F3;
+    fill: #FFFFFF;
+    border-radius: 50%;
+}
+.team-icon{
+    width: 22px;
+    height: 22px;
+}
+.client-title{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.clients-list{
+    display: flex;
+    justify-content: space-between;
+}
 
 
