@@ -144,6 +144,7 @@ body{
 }
 .work-img{
     padding-bottom: 94px;
+    position: relative;
 }
 .team{
     background-color: var(--section-color);
@@ -384,4 +385,22 @@ justify-content: space-between;
     height: 60px;
     width: 106px;
 }
+.work-text{
+    position: absolute;
+    bottom: 94px;
+    background-color: #2f303ac5;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    /* padding-left: 107px;
+    padding-right: 107px; */
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
+}
+.work-item{
+    position: relative;
+}
