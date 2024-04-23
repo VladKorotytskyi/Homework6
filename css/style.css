@@ -198,7 +198,6 @@ body{
 }
 .footer{
     background-color: var(--footer-color);
-    padding-bottom: 60px;
     padding-top: 60px;
 }
 .footer-logo{
