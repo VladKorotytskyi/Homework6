@@ -423,15 +423,10 @@ justify-content: space-between;
     display: flex;
     gap: 10px;
 }
-.two-div{
-    position: relative;
-    left: 270px;
-    bottom: 100px;
-    
-}
 .footer-item-two{
     background-color: #43464f;
     border-radius: 50%;
+    margin-bottom: 90px;
 }
 .svg-icon{
     width: 22px;
@@ -445,4 +440,11 @@ justify-content: space-between;
     text-transform: uppercase;
     color: #fff;
     padding-bottom: 20px;
+}
+.second-div{
+    display: flex;
+}
+.two-div{
+    margin-left: 70px;
+    margin-top: 12px;
 }
