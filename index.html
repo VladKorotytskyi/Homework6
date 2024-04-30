@@ -65,9 +65,55 @@
       <section class="post">
         <div class="container">
           <h1 class="post-title">Ефективні рішення для <br> вашого бізнесу</h1>
-        <button class="post-button" type="button">Замовити послугу</button>
+        <button class="post-button btn-open" type="button" data-modal-open>Замовити послугу</button>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="modal-btn" data-modal-close>
+              <svg class="modal-close" >
+                <use class="close" href="./img/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+            <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <form>
+              <p class="modal-text">Ім'я</p>
+              <svg class="modal-svg">
+                <use class="modal-use" href="./img/symbol-defs.svg#icon-person"></use>
+              </svg>
+              <label>
+                <input class="modal-input" type="text">
+              </label>
+              <p class="modal-text">Телефон</p>
+              
+              <svg class="modal-svg">
+                <use class="modal-use" href="./img/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              <label>
+                <input class="modal-input" type="tel">
+              </label>
+              <p class="modal-text">Пошта</p>
+              <svg class="modal-svg">
+                <use class="modal-use" href="./img/symbol-defs.svg#icon-email"></use>
+              </svg>
+              <label>
+                <input class="modal-input" type="email">
+              </label>
+              <p class="modal-text">Коментар</p>
+              <label>
+                <input class="input-modal" type="text" placeholder="Введіть текст">
+              </label>
+              <div class="modal-div">
+                <label>
+                  <input class="modal-checkbox" type="checkbox">
+                </label>
+                <p class="modal-subtext">Погоджуюся з розсилкою та приймаю</p><a class="link-text" href="#">, Умови договору</a>
+              </div>
+              
+            </form>
+            <button class="btn-modal" type="submit">Відправити</button>
+          </div>
+          </div>
         </div>
-        
+        <script src="./main.js"></script>
       </section>
       <section class="benefist">
         <div class="container">
@@ -325,6 +371,21 @@
           </a></li>
          </ul>
         </div>
+        <div class="div-footer">
+          <h2 class="footer-title-second">Підпишіться на розсилку</h2>
+        <form class="footer-form">
+          <label class="footer-label">
+            <input class="footer-input" type="email" placeholder="E-mail">
+          </label>
+          <button class="footer-button">
+            <a href="#" class="footer-link">Підписатися</a>
+            <svg class="footer-svg">
+              <use class="footer-use" href="./img/symbol-defs.svg#icon-telegram"></use>
+            </svg>
+          </button>
+        </form>
+        </div>
+        
       </div>
     </footer>
   </body>
