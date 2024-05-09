@@ -80,7 +80,7 @@
                 <use class="modal-use" href="./img/symbol-defs.svg#icon-person"></use>
               </svg>
               <label>
-                <input class="modal-input" type="text">
+                <input class="modal-input" type="text" required minlength="5" maxlength="15">
               </label>
               <p class="modal-text">Телефон</p>
               
@@ -88,18 +88,18 @@
                 <use class="modal-use" href="./img/symbol-defs.svg#icon-phone"></use>
               </svg>
               <label>
-                <input class="modal-input" type="tel">
+                <input class="modal-input" type="number" required>
               </label>
               <p class="modal-text">Пошта</p>
               <svg class="modal-svg">
                 <use class="modal-use" href="./img/symbol-defs.svg#icon-email"></use>
               </svg>
               <label>
-                <input class="modal-input" type="email">
+                <input class="modal-input" type="email" required>
               </label>
               <p class="modal-text">Коментар</p>
               <label>
-                <input class="input-modal" type="text" placeholder="Введіть текст">
+                <input class="textarea-modal" type="text" placeholder="Введіть текст">
               </label>
               <div class="modal-div">
                 <label>
@@ -373,12 +373,12 @@
         </div>
         <div class="div-footer">
           <h2 class="footer-title-second">Підпишіться на розсилку</h2>
-        <form class="footer-form">
+        <form>
           <label class="footer-label">
-            <input class="footer-input" type="email" placeholder="E-mail">
+            <input class="footer-input" type="email" placeholder="E-mail" required>
           </label>
           <button class="footer-button">
-            <a href="#" class="footer-link">Підписатися</a>
+            <a href="#" type="submit" class="footer-link">Підписатися</a>
             <svg class="footer-svg">
               <use class="footer-use" href="./img/symbol-defs.svg#icon-telegram"></use>
             </svg>
