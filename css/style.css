@@ -492,6 +492,9 @@ justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     z-index: 999;
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .backdrop.is-hidden{
     opacity: 0;
@@ -626,7 +629,7 @@ justify-content: space-between;
 }
 .product-action{
     position: absolute;
-    top: 0;
+    top: 30;
     left: 0;
     padding: 63px 24px;
     font-size: 18px;
@@ -635,6 +638,9 @@ justify-content: space-between;
     line-height: 1.6;
     background-color: rgba(33, 150, 243, 0.9);
     opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: 250ms;
+
 }
 .product-thumb{
     position: relative;
@@ -642,6 +648,7 @@ justify-content: space-between;
 }
 .portfolio-item:hover .product-action{
     opacity: 1;
+    transform: translateY(-300px);
 }
 .navigation-link.current::after{
     content: '';
