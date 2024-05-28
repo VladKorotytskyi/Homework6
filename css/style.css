@@ -179,9 +179,6 @@ body{
     cursor: pointer;
     margin-top: 94px;
     margin-bottom: 50px;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio{
     padding-bottom: 64px;
@@ -193,7 +190,6 @@ body{
     border-radius: 4px;
     border: 0px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1); 
-    
 }
 .portfolio-title{
     font-size: 18px;
@@ -369,15 +365,22 @@ justify-content: space-between;
     align-items: center;
     justify-content: center;
     fill: #757575;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 50%;
+}
+@keyframes changeBgColor{
+   0%{
+    background-color: white;
+   } 
+   100%{
+    background-color: #188ce8;
+   }
 }
 .team-social:hover{
     background-color: #2196F3;
     fill: #FFFFFF;
     border-radius: 50%;
+    animation-name: changeBgColor;
+    animation-duration: 250ms;
 }
 .team-icon{
     width: 22px;
@@ -408,9 +411,16 @@ justify-content: space-between;
     padding: 16px 32px;    
     margin-top: 50px;
     margin-bottom: 94px;
-    transition-property: fill border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes changeBorder{
+    0%{
+        fill: #757575;
+        border: 1px solid #757575;
+    }
+    100%{
+        fill: #188ce8;
+        border: 1px solid #188ce8;
+    }
 }
 .client-icon:hover,
 .client-icon:focus{
@@ -422,6 +432,8 @@ justify-content: space-between;
     padding: 16px 32px;    
     margin-top: 50px;
     margin-bottom: 94px;
+    animation-name: changeBorder;
+    animation-duration: 250ms;
 }
 .work-text{
     position: absolute;
